@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 const Tasks = (props) => {
-    console.log(props);
     const completedClassName = props.task.completed ? 'text-decoration-line-through' : '';
     return (
         <li className="list-group-item list-group-item-action">
